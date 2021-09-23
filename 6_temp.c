@@ -2,7 +2,7 @@
 void main()
 {
     int a,b;
-    printf("Enter two numbers: ");
+    printf("Enter the number: ");
     scanf("%d",&a);
     if(a<0 || a>100)
     {
