@@ -4,7 +4,7 @@ void main()
     int a,b,c,d;
     printf("Enter three numbers: ");
     scanf("%d%d%d",&a,&b,&c);
-    if(a+b==c || a+c==b || b+a==c || b+c==a || c+a==b || c+b==a)
+    if(a+b==c || a+c==b || b+c==a)
     {
         printf("1");
     }
