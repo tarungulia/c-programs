@@ -12,7 +12,7 @@ void main()
 
     for(i=0;i<n;i++)
     {
-    if(arr[i]==5 && arr[i+1]==5 || arr[i+1]==6)
+    if((arr[i]==5 && arr[i+1]==5) || (arr[i]==5 && arr[i+1]==6))
     {
         count=count+1;
     }

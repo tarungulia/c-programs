@@ -14,5 +14,10 @@ void main()
         if(arr[i]==arr[i+1] && arr[i+1]==arr[i+2])
             count=count+1;
     }
-    printf("%d",count);
+    if(count>0)
+    {
+        printf("1");
+    }
+    else
+    printf("0");
 }
